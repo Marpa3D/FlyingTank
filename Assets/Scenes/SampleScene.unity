@@ -3816,6 +3816,7 @@ GameObject:
   - component: {fileID: 791611155}
   - component: {fileID: 791611159}
   - component: {fileID: 791611158}
+  - component: {fileID: 791611157}
   m_Layer: 0
   m_Name: PlayerTank
   m_TagString: Player
@@ -3890,6 +3891,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &791611157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791611154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c41434e5b9e1634f83401b68766753d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 40
+  _moveSpeed: 3
+  _angleOffset: 90
+  _rotationSpeed: 7
 --- !u!61 &791611158
 BoxCollider2D:
   m_ObjectHideFlags: 0
