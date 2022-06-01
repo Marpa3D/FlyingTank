@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : Tank
 {
-    // —крипт игрока от ¬€чеслава Ўарова
+    // —крипт игрока от ¬€чеслава Ўарова. ”ченик курса от GeekBrains
     protected override void Move()
     {
         Vector2 direction = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));

@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public abstract class Tank : MonoBehaviour
 {
-    // ќсновной класс от ¬€чеслава Ўарова
+    // ќсновной класс юнитов от ¬€чеслава Ўарова
 
     [SerializeField] private int _maxHealth = 40;
     [SerializeField] protected float _moveSpeed = 3f;
